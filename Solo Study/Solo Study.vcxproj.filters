@@ -382,5 +382,8 @@
     <ClCompile Include="음양 더하기.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="최댓값 최솟값.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
