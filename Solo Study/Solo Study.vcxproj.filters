@@ -388,5 +388,8 @@
     <ClCompile Include="최솟값 만들기.cpp">
       <Filter>프로그래머스 2레벨</Filter>
     </ClCompile>
+    <ClCompile Include="올바른 괄호.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
