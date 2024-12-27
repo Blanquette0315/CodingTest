@@ -5,10 +5,382 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="프로그래머스 3레벨">
+      <UniqueIdentifier>{b49a6fa4-fc65-4e20-9c2e-5c965a2b8643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래머스 2레벨">
+      <UniqueIdentifier>{63be8f03-fd44-4c36-b3b4-56b9766902ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래머스 2레벨\Stack Queue">
+      <UniqueIdentifier>{8ca36843-0a2c-4af3-a4af-f385b81b64d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="백준">
+      <UniqueIdentifier>{d95bd985-b979-456f-8e58-86c8a28f36d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래머스 0레벨">
+      <UniqueIdentifier>{7afa1f30-3a24-4a81-b79f-7b65927d906c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="코드트리">
+      <UniqueIdentifier>{f974a7f0-0d38-4663-b96a-b44993a323dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="엘리스 코드 첼린지">
+      <UniqueIdentifier>{2cd5da24-bb13-4b39-bbc5-27d34c3ab2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="저장소">
+      <UniqueIdentifier>{7c618364-b437-417a-bc50-4cfa04beafe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="다시 풀 문제">
+      <UniqueIdentifier>{5b40b853-0437-4e90-a0d9-1fe8eb08fdef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래머스 1레벨">
+      <UniqueIdentifier>{727e7468-71be-483f-a580-2d4ea72bfcb5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="기둥과 보 설치.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="기능개발.cpp">
+      <Filter>프로그래머스 2레벨\Stack Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="길 찾기 게임.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 큰 수.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="롤케이크 자르기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자 게임.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 펠린드롬.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="쿼드압축 후 개수 세기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="[1차] 프렌즈4블록.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="거스름돈.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="타겟 넘버.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="자물쇠와 열쇠.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="보행자 천국.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 먼 노드.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="네트워크.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="코딩 테스트 공부.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="외벽 점검.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="기지국 설치.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="스타 수열.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="호텔 대실.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="선입 선출 스케줄링.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="피로도.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="카운트 다운.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="광고 삽입.cpp">
+      <Filter>프로그래머스 3레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="16235 나무 재테크.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15897 잘못 구현한 에라토스테네스의 체.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="10159 저울.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="1202 보석 도둑.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬 트리.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="귤 고르기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="영어 끝말잇기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호 회전하기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="옹알이(1).cpp">
+      <Filter>프로그래머스 0레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="카펫.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="17780 새로운 게임.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="12865 평범한 배낭.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="1261 알고스팟.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자의 표현.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="1525 퍼즐.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="석유 시추.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="15686 치킨 배달.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="큰 수 만들기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="9466 텀 프로젝트.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="N-Queen.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="17143 낚시왕.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="H-Index.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="점프와 순간 이동.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="짝지어 제거하기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="1152 단어의 개수.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="예상 대진표.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="멀리 뛰기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="뒤에 있는 큰 수 찾기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="멀쩡한 사각형.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="주식가격.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="알파벳 회전초밥.cpp">
+      <Filter>코드트리</Filter>
+    </ClCompile>
+    <ClCompile Include="튜플.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="색종이1.cpp">
+      <Filter>코드트리</Filter>
+    </ClCompile>
+    <ClCompile Include="n^2배열 자르기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="다리를 지나는 트럭.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="배달.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="땅따먹기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="의상.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="양궁대회.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="전화번호 목록.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="주차 요금 계산.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="이진 변환 반복하기.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="다음 큰 숫자.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="10808 알파벳 개수.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="트리 위의 게임.cpp">
+      <Filter>엘리스 코드 첼린지</Filter>
+    </ClCompile>
+    <ClCompile Include="부분 연속 수열 합의 개수.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="할인 행사.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬의 곱셈.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="캐시.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="뉴스 클러스터링.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="N진수 게임.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="k진수에서 소수 개수 구하기.cpp">
+      <Filter>저장소</Filter>
+    </ClCompile>
+    <ClCompile Include="모음사전.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="방문 길이.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="더 맵게.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="택배상자.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="오픈채팅방.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="[3차] 파일명 정렬.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="[3차]압축.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="[3차] 방금그곡.cpp">
+      <Filter>프로그래머스 2레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="10828 스택.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="10845 큐.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="10866 덱.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="4949 균형잡힌 세상.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="10799 쇠막대기.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2504 괄호의 값.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="1926 그림.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="2178 미로cpp.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="7576 토마토.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="4179 불!cpp.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="1697 숨바꼭질.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="5427 불.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="곱셈.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="11729 하노이 탑 이동 순서.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15649 N과 M.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15650 N과 M(2).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15651 N과 M(3).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15652 N과 M(4).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15654 N과 M(5).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15655 N과 M(6).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15656 N과 M(7).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15657 N과 M(8).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15663 N과 M(9).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15664 N과 M(10).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15665 N과 M(11).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="15666 N과 M(12).cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="9663 N-Queen.cpp">
+      <Filter>다시 풀 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1182 부분수열의 합.cpp">
+      <Filter>백준</Filter>
+    </ClCompile>
+    <ClCompile Include="나누어 떨어지는 숫자 배열.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="음양 더하기.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

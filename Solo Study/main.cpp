@@ -912,23 +912,48 @@
 //#include <string>
 //#include <vector>
 //
-//// 문제가 좋다고 해야할지..
-//// 나쁘다고 해야할지..
-//// 아무튼 결국 나오는 수의 범위를 생각해보지 않은건 아닌데,
-//// 
-//// 피보나치 수열 수를 잘 몰라서 ㅋㅋㅋㅋ 44번째 수만해도 2971215073이나 나올 줄이야..
-//// 아무튼 요는 기존 자료형 사이즈로는 부족하기 때문에
-//// 1234567이라는 값으로 나눈 나머지를 기준으로 계속 기록해주어야 한다...
-//// 
-//// == 모듈러 연산의 성질 ==
-//// 어떤 수 A, B, C가 있을 때,
-//// A + B % C = ((A % C) + (B % C)) % C
-//// 결국 해당 성질을 아느냐 모르느냐 + 자료형의 범위가 부족하지 않은지 확인하는 능력에 관한 문제.
-//// 
-//// 답을 N으로 나누라는 것은 오버플로우가 발생할 확률이 높은 문제일 가능성이있다.
-//// 따라서 자료형 사이즈등을 잘 검토해볼 것.
-////
+// 문제가 좋다고 해야할지..
+// 나쁘다고 해야할지..
+// 아무튼 결국 나오는 수의 범위를 생각해보지 않은건 아닌데,
+// 
+// 피보나치 수열 수를 잘 몰라서 ㅋㅋㅋㅋ 44번째 수만해도 2971215073이나 나올 줄이야..
+// 아무튼 요는 기존 자료형 사이즈로는 부족하기 때문에
+// 1234567이라는 값으로 나눈 나머지를 기준으로 계속 기록해주어야 한다...
+// 
+// == 모듈러 연산의 성질 ==
+// 어떤 수 A, B, C가 있을 때,
+// A + B % C = ((A % C) + (B % C)) % C
+// 결국 해당 성질을 아느냐 모르느냐 + 자료형의 범위가 부족하지 않은지 확인하는 능력에 관한 문제.
+// 
+// 답을 N으로 나누라는 것은 오버플로우가 발생할 확률이 높은 문제일 가능성이있다.
+// 따라서 자료형 사이즈등을 잘 검토해볼 것.
 //
+//
+// 아래는 추후에 스터디 이후 나온 좋은 코드
+//==============================================
+//
+//int solution(int n) {
+//	int answer = 0;
+//
+//	int icurIdx = 2;
+//	int sum = 0, Left = 0, Right = 1;
+//	// 케이스 자체가 2 이상 부터 나오기 때문에 0,1은 예외처리를 안함.
+//	while (n >= icurIdx)
+//	{
+//		sum = (Left + Right) % 1234567;
+//		Left = Right;
+//		Right = sum;
+//
+//		icurIdx++;
+//	}
+//
+//	answer = sum;
+//
+//	return answer;
+//}
+// ==========================================
+// 아래는 원래 내가 만든 메모이제이션 방법
+// 
 //using namespace std;
 //
 //int Fibonacci(int n, vector<long long>& vec_Memo)
@@ -946,7 +971,7 @@
 //
 //	return vec_Memo[n - 1];
 //}
-//
+
 //int solution(int n) {
 //	int answer = 0;
 //
@@ -956,49 +981,50 @@
 //
 //	return answer;
 //}
+// ============================================================================
 
-#include <string>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-
-long long solution(int n, vector<int> times) {
-	long long answer = 0;
-
-	sort(times.begin(), times.end());
-
-	long long llMinTime = 0;
-	long long llMaxTime = times[times.size() - 1] * n;
-	long long llMidTime = (llMinTime + llMaxTime) / 2;
-
-	long long PersonCount = 0;
-	while (llMinTime <= llMaxTime)
-	{
-		PersonCount = 0;
-
-		for (size_t iTimeIdx = 0; iTimeIdx < times.size(); ++iTimeIdx)
-		{
- 			PersonCount += llMidTime / times[iTimeIdx];
-		}
-
-		// 크면, min을 mid + 1로
-		if (PersonCount < n)
-		{
-			llMinTime = llMidTime + 1;
-   			llMidTime = (llMinTime + llMaxTime) / 2;
-		}
-		// 작으면, max를 mid - 1로
-		else
-		{
-			answer = llMidTime;
-			llMaxTime = llMidTime - 1;
-			llMidTime = (llMinTime + llMaxTime) / 2;
-		}
-	}
-
-	return answer;
-}
+//#include <string>
+//#include <vector>
+//#include <algorithm>
+//
+//using namespace std;
+//
+//long long solution(int n, vector<int> times) {
+//	long long answer = 0;
+//
+//	sort(times.begin(), times.end());
+//
+//	long long llMinTime = 0;
+//	long long llMaxTime = times[times.size() - 1] * n;
+//	long long llMidTime = (llMinTime + llMaxTime) / 2;
+//
+//	long long PersonCount = 0;
+//	while (llMinTime <= llMaxTime)
+//	{
+//		PersonCount = 0;
+//
+//		for (size_t iTimeIdx = 0; iTimeIdx < times.size(); ++iTimeIdx)
+//		{
+// 			PersonCount += llMidTime / times[iTimeIdx];
+//		}
+//
+//		// 크면, min을 mid + 1로
+//		if (PersonCount < n)
+//		{
+//			llMinTime = llMidTime + 1;
+//   			llMidTime = (llMinTime + llMaxTime) / 2;
+//		}
+//		// 작으면, max를 mid - 1로
+//		else
+//		{
+//			answer = llMidTime;
+//			llMaxTime = llMidTime - 1;
+//			llMidTime = (llMinTime + llMaxTime) / 2;
+//		}
+//	}
+//
+//	return answer;
+//}
 
 void main()
 {
@@ -1026,7 +1052,7 @@ void main()
 	//int answer = solution(5);
 
 	//int answer = solution(10, vector<int>{5, 7, 10});
-	int answer = solution(4, vector<int>{1,1,1});
+	//int answer = solution(4, vector<int>{1,1,1});
 
 	int a = 0;
 
