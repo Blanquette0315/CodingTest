@@ -403,5 +403,8 @@
     <ClCompile Include="내적.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="약수의 개수와 덧셈.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

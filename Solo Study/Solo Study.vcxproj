@@ -401,6 +401,7 @@
     <ClCompile Include="알파벳 회전초밥.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="약수의 개수와 덧셈.cpp" />
     <ClCompile Include="양궁대회.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
