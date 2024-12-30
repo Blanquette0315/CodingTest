@@ -392,10 +392,13 @@
       <Filter>프로그래머스 2레벨</Filter>
     </ClCompile>
     <ClCompile Include="제일 작은 수 제거하기.cpp">
-      <Filter>프로그래머스 0레벨</Filter>
+      <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
     <ClCompile Include="가운데 글자 가져오기.cpp">
-      <Filter>프로그래머스 0레벨</Filter>
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="수박수박수박수박수박수.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -15,8 +15,3 @@ string solution(string s) {
 
     return answer;
 }
-
-void main()
-{
-    string answer = solution("qwer");
-}
