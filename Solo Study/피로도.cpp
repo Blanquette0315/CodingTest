@@ -19,6 +19,40 @@ using namespace std;
 // 해당 코드는 O(N^2)이다.
 //
 
+// 2024.05.10
+//int solution(int k, vector<vector<int>> dungeons) {
+//    int answer = -1;
+//
+//    sort(dungeons.begin(), dungeons.end());
+//
+//    do
+//    {
+//        int Cnt = k;
+//        int Dgn_Cnt = 0;
+//
+//        for (size_t i = 0; i < dungeons.size(); ++i)
+//        {
+//            int req_fatigue = dungeons[i][0];
+//            int use_fatigue = dungeons[i][1];
+//
+//            if (Cnt >= req_fatigue)
+//            {
+//                Cnt -= use_fatigue;
+//                Dgn_Cnt++;
+//            }
+//            else
+//                break;
+//        }
+//
+//        answer = max(answer, Dgn_Cnt);
+//
+//    } while (next_permutation(dungeons.begin(), dungeons.end()));
+//    
+//    return answer;
+//}
+
+
+// 2024.12.30
 int solution(int k, vector<vector<int>> dungeons) {
     int answer = -1;
 
@@ -26,27 +60,22 @@ int solution(int k, vector<vector<int>> dungeons) {
 
     do
     {
-        int Cnt = k;
-        int Dgn_Cnt = 0;
-
-        for (size_t i = 0; i < dungeons.size(); ++i)
+        int Fatigue = k;
+        int cnt = 0;
+        for (int i = 0; i < dungeons.size(); ++i)
         {
-            int req_fatigue = dungeons[i][0];
-            int use_fatigue = dungeons[i][1];
-
-            if (Cnt >= req_fatigue)
+            if (Fatigue >= dungeons[i][0])
             {
-                Cnt -= use_fatigue;
-                Dgn_Cnt++;
+                Fatigue -= dungeons[i][1];
+                cnt++;
             }
             else
                 break;
         }
 
-        answer = max(answer, Dgn_Cnt);
-
+        answer = max(answer, cnt);
     } while (next_permutation(dungeons.begin(), dungeons.end()));
-    
+
     return answer;
 }
 
