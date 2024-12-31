@@ -427,5 +427,8 @@
     <ClCompile Include="3진법 뒤집기.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="이상한 문자 만들기.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
