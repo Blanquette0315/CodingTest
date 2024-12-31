@@ -421,5 +421,8 @@
     <ClCompile Include="직사각형 별찍기.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="최대공약수와 최소공배수.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
