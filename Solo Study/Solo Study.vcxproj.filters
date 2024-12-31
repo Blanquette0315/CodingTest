@@ -412,5 +412,8 @@
     <ClCompile Include="부족한 금액 계산하기.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="문자열 다루기 기본.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
