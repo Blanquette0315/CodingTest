@@ -406,5 +406,8 @@
     <ClCompile Include="약수의 개수와 덧셈.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="문자열 내림차순으로 배치하기.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
