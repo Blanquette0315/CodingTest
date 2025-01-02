@@ -433,5 +433,8 @@
     <ClCompile Include="삼총사.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="크기가 작은 부분문자열.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

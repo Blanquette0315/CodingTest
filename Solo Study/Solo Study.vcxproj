@@ -523,6 +523,7 @@
     <ClCompile Include="쿼드압축 후 개수 세기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="크기가 작은 부분문자열.cpp" />
     <ClCompile Include="큰 수 만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
