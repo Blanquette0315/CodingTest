@@ -457,5 +457,8 @@
     <ClCompile Include="가장 가까운 같은 글자.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="푸드 파이트 대회.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
