@@ -475,5 +475,11 @@
     <ClCompile Include="과일 장수.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="기사단원의 무기.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
