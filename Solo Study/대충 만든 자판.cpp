@@ -19,9 +19,9 @@ vector<int> solution(vector<string> keymap, vector<string> targets) {
             }
             else
             {
-                if (map_Key.find(keymap[i][j])->second > i + 1)
+                if (map_Key.find(keymap[i][j])->second > j + 1)
                 {
-                    map_Key.find(keymap[i][j])->second = i + 1;
+                    map_Key.find(keymap[i][j])->second = j + 1;
                 }
             }
         }
