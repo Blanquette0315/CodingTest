@@ -484,5 +484,11 @@
     <ClCompile Include="대충 만든 자판.cpp">
       <Filter>프로그래머스 1레벨</Filter>
     </ClCompile>
+    <ClCompile Include="둘만의 암호.cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
+    <ClCompile Include="옹알이(2).cpp">
+      <Filter>프로그래머스 1레벨</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
