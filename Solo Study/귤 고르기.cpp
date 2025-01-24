@@ -64,11 +64,3 @@ int solution(int k, vector<int> tangerine) {
 
     return answer;
 }
-
-void main()
-{
-    //int anwer = solution(6, vector<int>{1, 3, 2, 5, 4, 5, 2, 3});
-    int anwer = solution(10, vector<int>{1});
-
-    return;
-}
